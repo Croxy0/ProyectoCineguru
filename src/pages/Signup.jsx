@@ -14,9 +14,10 @@ export default function Singup() {
         <div className="form">
             <imput type="email" placeholder="Correo Electronico" name="email" />
             <imput type="password" placeholder="Contraseña" name="password" />
-            <button>Iniciar Sesion</button>
+            <button>Crear Cuenta</button>
         </div>
+        <button>Iniciar Sesion</button>
     </Container>
-}
+};
 
-const Container = styled.div''; 
+const Container = styled.div``; 
